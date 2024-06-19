@@ -209,3 +209,24 @@
   /* 定义显示样式 */
   font-display: block;
 }
+
+
+
+/* custom.css */
+
+body {
+  background: url(/assets/img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000;
+}
+
+#main {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+[data-theme="dark"] #main {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
